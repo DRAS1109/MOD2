@@ -4,12 +4,11 @@ Dia = int(input("Introduza o dia do ano: "))
 Mes = input("Introduza o mes do ano: (1 - Janeiro, 10 - Outubro) ")
 Ano = int(input("Introduza o ano: "))
 
-if Ano % 4 == 0:
-        if Ano % 100 != 0:
-            Fevereiro = 29
+if Ano % 4 == 0 and Ano % 100 != 0 or Ano % 400 == 0:
+    Fevereiro = 29
 
-        else:
-            Fevereiro = 28
+else:
+    Fevereiro = 28
 
 
 if Mes in ("1","3","5","7","8","10","12"):
