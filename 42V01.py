@@ -3,9 +3,9 @@
 
 SegundosT = 0
 
-for i in range (1, 3):
+for i in range (5):
     #Minutos = int(input(f"Introduza os minutos de passagem na {i}ª volta: "))
-    Segundos = int(input(f"Introduza os segundos de passagem na {i}ª volta: "))
+    Segundos = int(input(f"Introduza os segundos de passagem na {i + 1}ª volta: "))
     print ("") #Para dar um espaço
 
     SegundosT = SegundosT + Segundos
