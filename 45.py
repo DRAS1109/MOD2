@@ -1,1 +1,0 @@
-#Numero perfeito, é perfeito se a soma de todos os divisores positivos derem o proprio nº
