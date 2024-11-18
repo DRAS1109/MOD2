@@ -15,7 +15,7 @@ N_Bilhetes = int(input("Introduza o Nº de bilhetes vendidos: "))
 
 for i in range (1, N_Bilhetes + 1):
     if N_Bilhetes > N_Lugares:
-        print ("Overbooking é proibido, ligando para as autoridades para alertar... \n")
+        print ("Overbooking é proibido, ligando para as autoridades para alertar...")
         break
     Nome = input(f"Introduza o nome do {i}º cliente: ")
     
